@@ -1,0 +1,40 @@
+table,
+th,
+td{
+    border: 1px solid grey;
+    border-collapse: collapse;
+    text-align: center;
+    font-style: bold;
+    font-style: italic;
+}
+#mytable {
+    color: orange;
+}
+.mytable_class{
+    background: rgb(173, 173, 217);
+}
+ul.info>li {
+    list-style: none;
+}
+ul.info>li li:nth-child(2) {
+    list-style: none;
+}
+ol li a {
+    text-decoration: none;
+}
+
+ol li a[target="_blank"] {
+    color: rgba(222, 26, 39, 0.894);
+}
+ol li a[href="https://google.com"]{
+    color: pink;
+}
+ol li a[href*="google"]{
+    color: rgb(255, 0, 123);
+}
+ol li a[href^="httpss"]{
+    color: blue;
+}
+ol li a[href$=".com.au"]{
+    background: rgb(128, 157, 55);
+}
